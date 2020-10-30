@@ -37,11 +37,11 @@ contract TieredProfitSplitter {
         // @TODO: Repeat the previous steps for `employee_two` and `employee_three`
         // Your code here!
         
-        amount = points.mul(0.15);
+        amount = points.mul(0.25);
         total +=amount;
         employee_two.transfer(amount);
         
-        amount = points.mul(0.25);
+        amount = points.mul(0.15);
         total +=amount;
         employee_three.transfer(amount);
     
